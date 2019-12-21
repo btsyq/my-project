@@ -6,6 +6,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import "@/assets/css/index.scss"; // global css
+
 Vue.use(ElementUI, {
   i18n: (key, value) => i18n.t(key, value)
 });
